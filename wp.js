@@ -20,7 +20,7 @@
     const rl = (await import("readline")).createInterface({ input: process.stdin, output: process.stdout });
     const question = (text) => new Promise((resolve) => rl.question(text, resolve));
 
-    // Variables to store input data
+    
     let targetNumber = null;
     let messages = null;
     let intervalTime = null;
